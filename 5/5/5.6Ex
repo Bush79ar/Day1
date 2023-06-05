@@ -1,0 +1,30 @@
+#create avarable
+#renmd unm
+set.seed(123)
+var1 = rnorm(100,50,3)
+boxplot(var1,horizontal = TRUE,col = "red")
+#gif the number of Q1 Q2..
+fivenum(var1)
+summary(var1)
+var1[3]
+var1[3]= var1[3]+40
+var1[50]
+var1[50]=var1[50]-30
+#boxplot with not outli with not dete the data
+#boxplot(var1[-c(3,50)],outlie=FALES)
+boxplot(var1[-c(3,50)])
+
+
+
+#(WM=c(10000*8 +12000*10+8000*12)/(8+12+10)) 
+A=c(44,39,22,50,64)
+(mean(A))
+(sd(A))
+Zco=(A-mean(A))/sd(A)
+     
+B= c(22,20,17,30,11)
+ZCB=(B-mean(B))/sd(B)
+(mean(B))
+(sd(B))
+
+
